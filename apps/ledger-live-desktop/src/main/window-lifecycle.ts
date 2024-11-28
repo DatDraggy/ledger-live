@@ -31,6 +31,7 @@ export const getMainWindowAsync = async (maxTries = 5): Promise<BrowserWindow> =
     throw new Error("could not get the mainWindow");
   }
   const w = getMainWindow();
+
   if (!w) {
     await delay(2000);
     return getMainWindowAsync(maxTries - 1);

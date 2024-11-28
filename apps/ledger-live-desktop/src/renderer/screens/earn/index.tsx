@@ -13,6 +13,8 @@ import { useDeepLinkListener } from "~/renderer/screens/earn/useDeepLinkListener
 import { useDiscreetMode } from "~/renderer/components/Discreet";
 import { useLocalLiveAppManifest } from "@ledgerhq/live-common/wallet-api/LocalLiveAppProvider/index";
 import { getParsedSystemDeviceLocale } from "~/helpers/systemLocale";
+import { Web3AppWebview } from "~/renderer/components/Web3AppWebview";
+import Modal from "~/renderer/components/Modal";
 
 const DEFAULT_EARN_APP_ID = "earn";
 
@@ -27,6 +29,12 @@ const Earn = () => {
   const discreetMode = useDiscreetMode();
   const countryLocale = getParsedSystemDeviceLocale().region;
   useDeepLinkListener();
+
+  const newManifest = { ...manifest, url: `${manifest.homepageUrl}/modal` };
+
+  console.log("BrowserWindow", { manifest, newManifest });
+
+  const isOpened = true;
 
   return (
     <Card grow style={{ overflow: "hidden" }} data-testid="earn-app-container">
@@ -51,6 +59,26 @@ const Earn = () => {
             OS: "web",
           }}
         />
+      ) : null}
+      {manifest ? (
+        <Modal isOpened={isOpened} centered bodyStyle={{ width: 600, height: 600 }} backdropColor>
+          {/* <webview src={newManifest.url} style={{ width: "100%", height: "100%" }} /> */}
+          <Web3AppWebview
+            manifest={newManifest}
+            inputs={{
+              theme: themeType,
+              lang: language,
+              locale: locale,
+              currencyTicker: fiatCurrency.ticker,
+              discreetMode: discreetMode ? "true" : "false",
+              OS: "web",
+            }}
+            // onStateChange={onStateChange}
+            // ref={webviewAPIRef}
+            // customHandlers={customHandlers}
+            // currentAccountHistDb={currentAccountHistDb}
+          />
+        </Modal>
       ) : null}
     </Card>
   );
