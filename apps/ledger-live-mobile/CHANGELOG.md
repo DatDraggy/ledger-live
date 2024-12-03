@@ -1,5 +1,47 @@
 # live-mobile
 
+## 3.59.0-nightly.0
+
+### Minor Changes
+
+- [#8552](https://github.com/LedgerHQ/ledger-live/pull/8552) [`0d7115c`](https://github.com/LedgerHQ/ledger-live/commit/0d7115c47317a28a53af1f6ae6b96947b9525c66) Thanks [@LucasWerey](https://github.com/LucasWerey)! - Rework reborn analytics
+
+- [#8466](https://github.com/LedgerHQ/ledger-live/pull/8466) [`5f7a799`](https://github.com/LedgerHQ/ledger-live/commit/5f7a7995e0ca2fa2d0c1203eda025bc9ae89150d) Thanks [@cgrellard-ledger](https://github.com/cgrellard-ledger)! - LLM - Ledger Sync improve error message when deleting backup on multiple instances at the same time
+
+- [#8495](https://github.com/LedgerHQ/ledger-live/pull/8495) [`f0a34a0`](https://github.com/LedgerHQ/ledger-live/commit/f0a34a06461331ec44fa02b8093699fa001f94a0) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Rework Hiddencollections
+
+- [#8464](https://github.com/LedgerHQ/ledger-live/pull/8464) [`8cc1438`](https://github.com/LedgerHQ/ledger-live/commit/8cc143873a40999578339ee56c375a60c2a3ff1e) Thanks [@LucasWerey](https://github.com/LucasWerey)! - Update entry points to reborn LP on read only mode
+
+- [#8479](https://github.com/LedgerHQ/ledger-live/pull/8479) [`ea5c60c`](https://github.com/LedgerHQ/ledger-live/commit/ea5c60cb3a3c4727acafb4021224385dce2bc296) Thanks [@cgrellard-ledger](https://github.com/cgrellard-ledger)! - LLM - Ledger Sync improved error message when a removed member tries to remove another member
+
+- [#8318](https://github.com/LedgerHQ/ledger-live/pull/8318) [`208d94a`](https://github.com/LedgerHQ/ledger-live/commit/208d94acefccf97cc970e0efb8c9040d24bbd436) Thanks [@LucasWerey](https://github.com/LucasWerey)! - Polish of braze CC for LLM + support video and gif
+
+- [#8389](https://github.com/LedgerHQ/ledger-live/pull/8389) [`995b771`](https://github.com/LedgerHQ/ledger-live/commit/995b771671b23931c6a85534841e8d88ca2acaf4) Thanks [@sergiubreban](https://github.com/sergiubreban)! - add exchange dev mode setting
+
+- [#8477](https://github.com/LedgerHQ/ledger-live/pull/8477) [`306dec6`](https://github.com/LedgerHQ/ledger-live/commit/306dec68321ab4214287618cb7903a1ae37a54b2) Thanks [@cgrellard-ledger](https://github.com/cgrellard-ledger)! - LLM - Ledger Sync improved error message when an unauthorized member tries to delete a backup
+
+### Patch Changes
+
+- [#8532](https://github.com/LedgerHQ/ledger-live/pull/8532) [`f816c89`](https://github.com/LedgerHQ/ledger-live/commit/f816c89b0ca5885db94ebc994c855c28c37cad5b) Thanks [@ofreyssinet-ledger](https://github.com/ofreyssinet-ledger)! - Avoid triggering post onboarding for "Access your wallet" onboarding flow
+
+- [#8538](https://github.com/LedgerHQ/ledger-live/pull/8538) [`f6eefe9`](https://github.com/LedgerHQ/ledger-live/commit/f6eefe9f56c3eb5eb150a61b93d15d94bac1147a) Thanks [@sergiubreban](https://github.com/sergiubreban)! - enable /card deeplink
+
+- Updated dependencies [[`f0a34a0`](https://github.com/LedgerHQ/ledger-live/commit/f0a34a06461331ec44fa02b8093699fa001f94a0), [`93f8f78`](https://github.com/LedgerHQ/ledger-live/commit/93f8f7885d1300208310599e743a4d1fae4ec2a4), [`40f1cd4`](https://github.com/LedgerHQ/ledger-live/commit/40f1cd4c22d17480dcf86c73e90a07866667b0ba), [`995b771`](https://github.com/LedgerHQ/ledger-live/commit/995b771671b23931c6a85534841e8d88ca2acaf4), [`d45e871`](https://github.com/LedgerHQ/ledger-live/commit/d45e871ee6b7e98102a4ffbdf3d7581c8cf838d0), [`2673c1d`](https://github.com/LedgerHQ/ledger-live/commit/2673c1d98788fafe7e95bd798be06a6b5e39e1c0), [`58beb75`](https://github.com/LedgerHQ/ledger-live/commit/58beb7504454b64cb5a955926ef27f811397aa6d)]:
+  - @ledgerhq/live-nft-react@0.5.0-nightly.0
+  - @ledgerhq/live-nft@0.5.0-nightly.0
+  - @ledgerhq/live-common@34.16.0-nightly.0
+  - @ledgerhq/types-live@6.55.0-nightly.0
+  - @ledgerhq/coin-framework@0.20.1-nightly.0
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.0
+  - @ledgerhq/coin-elrond@0.1.10-nightly.0
+  - @ledgerhq/coin-evm@2.6.1-nightly.0
+  - @ledgerhq/coin-filecoin@1.3.5-nightly.0
+  - @ledgerhq/coin-stacks@0.2.1-nightly.0
+  - @ledgerhq/domain-service@1.2.14-nightly.0
+  - @ledgerhq/live-countervalues@0.2.15-nightly.0
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.0
+  - @ledgerhq/live-wallet@0.7.7-nightly.0
+
 ## 3.58.0
 
 ### Minor Changes

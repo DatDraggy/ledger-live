@@ -1,5 +1,11 @@
 # @ledgerhq/types-live
 
+## 6.55.0-nightly.0
+
+### Minor Changes
+
+- [#8550](https://github.com/LedgerHQ/ledger-live/pull/8550) [`40f1cd4`](https://github.com/LedgerHQ/ledger-live/commit/40f1cd4c22d17480dcf86c73e90a07866667b0ba) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Filter Currencies which are buyable/swappable in MarketWidget
+
 ## 6.54.0
 
 ### Minor Changes

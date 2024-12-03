@@ -1,5 +1,36 @@
 # ledger-live-desktop
 
+## 2.94.0-nightly.0
+
+### Minor Changes
+
+- [#8495](https://github.com/LedgerHQ/ledger-live/pull/8495) [`f0a34a0`](https://github.com/LedgerHQ/ledger-live/commit/f0a34a06461331ec44fa02b8093699fa001f94a0) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Rework Hiddencollections
+
+- [#8563](https://github.com/LedgerHQ/ledger-live/pull/8563) [`93f8f78`](https://github.com/LedgerHQ/ledger-live/commit/93f8f7885d1300208310599e743a4d1fae4ec2a4) Thanks [@Canestin](https://github.com/Canestin)! - add another ledger solana validator
+
+- [#8550](https://github.com/LedgerHQ/ledger-live/pull/8550) [`40f1cd4`](https://github.com/LedgerHQ/ledger-live/commit/40f1cd4c22d17480dcf86c73e90a07866667b0ba) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Filter Currencies which are buyable/swappable in MarketWidget
+
+- [#8457](https://github.com/LedgerHQ/ledger-live/pull/8457) [`d45e871`](https://github.com/LedgerHQ/ledger-live/commit/d45e871ee6b7e98102a4ffbdf3d7581c8cf838d0) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Rework Hiddencollections
+
+### Patch Changes
+
+- [#8538](https://github.com/LedgerHQ/ledger-live/pull/8538) [`f6eefe9`](https://github.com/LedgerHQ/ledger-live/commit/f6eefe9f56c3eb5eb150a61b93d15d94bac1147a) Thanks [@sergiubreban](https://github.com/sergiubreban)! - enable /card deeplink
+
+- Updated dependencies [[`f0a34a0`](https://github.com/LedgerHQ/ledger-live/commit/f0a34a06461331ec44fa02b8093699fa001f94a0), [`93f8f78`](https://github.com/LedgerHQ/ledger-live/commit/93f8f7885d1300208310599e743a4d1fae4ec2a4), [`40f1cd4`](https://github.com/LedgerHQ/ledger-live/commit/40f1cd4c22d17480dcf86c73e90a07866667b0ba), [`995b771`](https://github.com/LedgerHQ/ledger-live/commit/995b771671b23931c6a85534841e8d88ca2acaf4), [`d45e871`](https://github.com/LedgerHQ/ledger-live/commit/d45e871ee6b7e98102a4ffbdf3d7581c8cf838d0), [`2673c1d`](https://github.com/LedgerHQ/ledger-live/commit/2673c1d98788fafe7e95bd798be06a6b5e39e1c0), [`58beb75`](https://github.com/LedgerHQ/ledger-live/commit/58beb7504454b64cb5a955926ef27f811397aa6d)]:
+  - @ledgerhq/live-nft-react@0.5.0-nightly.0
+  - @ledgerhq/live-nft@0.5.0-nightly.0
+  - @ledgerhq/live-common@34.16.0-nightly.0
+  - @ledgerhq/types-live@6.55.0-nightly.0
+  - @ledgerhq/coin-framework@0.20.1-nightly.0
+  - @ledgerhq/coin-bitcoin@0.8.10-nightly.0
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.0
+  - @ledgerhq/coin-evm@2.6.1-nightly.0
+  - @ledgerhq/coin-filecoin@1.3.5-nightly.0
+  - @ledgerhq/domain-service@1.2.14-nightly.0
+  - @ledgerhq/live-countervalues@0.2.15-nightly.0
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.0
+  - @ledgerhq/live-wallet@0.7.7-nightly.0
+
 ## 2.93.0
 
 ### Minor Changes

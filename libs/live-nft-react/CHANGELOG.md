@@ -1,5 +1,20 @@
 # @ledgerhq/live-nft-react
 
+## 0.5.0-nightly.0
+
+### Minor Changes
+
+- [#8495](https://github.com/LedgerHQ/ledger-live/pull/8495) [`f0a34a0`](https://github.com/LedgerHQ/ledger-live/commit/f0a34a06461331ec44fa02b8093699fa001f94a0) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Rework Hiddencollections
+
+- [#8457](https://github.com/LedgerHQ/ledger-live/pull/8457) [`d45e871`](https://github.com/LedgerHQ/ledger-live/commit/d45e871ee6b7e98102a4ffbdf3d7581c8cf838d0) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Rework Hiddencollections
+
+### Patch Changes
+
+- Updated dependencies [[`f0a34a0`](https://github.com/LedgerHQ/ledger-live/commit/f0a34a06461331ec44fa02b8093699fa001f94a0), [`40f1cd4`](https://github.com/LedgerHQ/ledger-live/commit/40f1cd4c22d17480dcf86c73e90a07866667b0ba), [`d45e871`](https://github.com/LedgerHQ/ledger-live/commit/d45e871ee6b7e98102a4ffbdf3d7581c8cf838d0)]:
+  - @ledgerhq/live-nft@0.5.0-nightly.0
+  - @ledgerhq/types-live@6.55.0-nightly.0
+  - @ledgerhq/coin-framework@0.20.1-nightly.0
+
 ## 0.4.14
 
 ### Patch Changes
