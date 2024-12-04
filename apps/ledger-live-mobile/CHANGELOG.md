@@ -1,5 +1,16 @@
 # live-mobile
 
+## 3.59.0-nightly.1
+
+### Minor Changes
+
+- [#8526](https://github.com/LedgerHQ/ledger-live/pull/8526) [`fc50509`](https://github.com/LedgerHQ/ledger-live/commit/fc50509da9892b2473bcae18da231cff50b1bdec) Thanks [@thesan](https://github.com/thesan)! - Log content card impression when 50% of the card is shown
+
+### Patch Changes
+
+- Updated dependencies [[`1e153ea`](https://github.com/LedgerHQ/ledger-live/commit/1e153ea07b1f0cb0d4249c62d317ea240fad53d0)]:
+  - @ledgerhq/live-common@34.16.0-nightly.1
+
 ## 3.59.0-nightly.0
 
 ### Minor Changes

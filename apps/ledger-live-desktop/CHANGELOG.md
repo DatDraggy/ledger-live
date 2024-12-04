@@ -1,5 +1,18 @@
 # ledger-live-desktop
 
+## 2.94.0-nightly.1
+
+### Minor Changes
+
+- [#8581](https://github.com/LedgerHQ/ledger-live/pull/8581) [`da72557`](https://github.com/LedgerHQ/ledger-live/commit/da725578d810c2c82b1a29b918f3e561cd5e88a5) Thanks [@themooneer](https://github.com/themooneer)! - Add ICP memo field to first step of new memo flow , FF ON
+
+### Patch Changes
+
+- [#8564](https://github.com/LedgerHQ/ledger-live/pull/8564) [`f87a18c`](https://github.com/LedgerHQ/ledger-live/commit/f87a18c2f96617f6b9084481a16af36761b84643) Thanks [@kallen-ledger](https://github.com/kallen-ledger)! - Add customPTXHandlers to list of deps for swap customHandlers
+
+- Updated dependencies [[`1e153ea`](https://github.com/LedgerHQ/ledger-live/commit/1e153ea07b1f0cb0d4249c62d317ea240fad53d0)]:
+  - @ledgerhq/live-common@34.16.0-nightly.1
+
 ## 2.94.0-nightly.0
 
 ### Minor Changes

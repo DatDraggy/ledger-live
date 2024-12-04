@@ -1,5 +1,11 @@
 ## 34.5.0-next.4
 
+## 34.16.0-nightly.1
+
+### Minor Changes
+
+- [#8459](https://github.com/LedgerHQ/ledger-live/pull/8459) [`1e153ea`](https://github.com/LedgerHQ/ledger-live/commit/1e153ea07b1f0cb0d4249c62d317ea240fad53d0) Thanks [@andreicovaciu](https://github.com/andreicovaciu)! - Prevent undefined error on mobile swap
+
 ## 34.16.0-nightly.0
 
 ### Minor Changes
