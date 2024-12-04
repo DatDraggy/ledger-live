@@ -502,7 +502,7 @@
           "to" : "À",
           "toExchange" : "Montant à envoyer",
           "toReceive" : "Montant à recevoir",
-          "terms" : "Conditions d’utilisation",
+          "terms" : "Conditions générales",
           "disclaimer" : {
             "description" : "En choisissant Confirmer, je reconnais et j’accepte que ce service soit exclusivement soumis aux Conditions d’utilisation de <0>{{provider}}</0>.",
             "acceptedDescription" : "Ce service est exclusivement soumis aux Conditions d’utilisation de <0>{{provider}}</0>."
@@ -3036,7 +3036,8 @@
         },
         "validatorGroup" : {
           "title" : "Groupe de validateurs",
-          "ledgerByFigmentTC" : "Conditions d’utilisation de Ledger by Figment",
+          "ledgerByFigmentTC" : "CG de Ledger by Figment",
+          "ledgerByChorusOneTC" : "CG de Ledger by Chorus One",
           "totalVotes" : "Total des votes",
           "commission" : "Commission"
         }
@@ -3625,7 +3626,8 @@
       "withdrawableInfoTooltip" : "Montant total pouvant être retiré des délégations",
       "withdrawableTitle" : "Disponible au retrait",
       "statusUpdateNotice" : "Le statut de la délégation sera mis à jour une fois la transaction confirmée.",
-      "ledgerByFigmentTC" : "Conditions d’utilisation de Ledger by Figment",
+      "ledgerByFigmentTC" : "CG de Ledger by Figment",
+      "ledgerByChorusOneTC" : "CG de Ledger by Chorus One",
       "emptyState" : {
         "description" : "Vous pouvez gagner des récompenses en SOL en déléguant vos actifs.",
         "info" : "Fonctionnement de la délégation",
@@ -3880,7 +3882,8 @@
           },
           "validator" : {
             "title" : "Validateurs",
-            "ledgerByFigmentTC" : "Conditions d’utilisation de Ledger by Figment"
+            "ledgerByChorusOneTC" : "CG de Ledger by Chorus One",
+            "ledgerByFigmentTC" : "CG de Ledger by Figment"
           },
           "connectDevice" : {
             "title" : "Appareil"
@@ -4147,6 +4150,7 @@
             "link" : "Lien",
             "secondaryCta" : "CTA secondaire",
             "cta" : "CTA",
+            "tag" : "Tag",
             "url" : "URL",
             "path" : "Chemin"
           }
@@ -4692,7 +4696,7 @@
         "noDevice" : "Pas encore d’appareil ?",
         "buyLink" : "Pas encore d’appareil ? Achetez un Ledger Nano X.",
         "byTapping" : "En appuyant sur Commencer, vous acceptez nos",
-        "termsAndConditions" : "Conditions d’utilisation",
+        "termsAndConditions" : "Conditions générales",
         "and" : "et",
         "privacyPolicy" : "Politique de confidentialité",
         "steps" : {
