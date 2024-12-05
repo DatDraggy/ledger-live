@@ -1,5 +1,13 @@
 # @ledgerhq/types-live
 
+## 6.55.0-nightly.1
+
+### Minor Changes
+
+- [#8590](https://github.com/LedgerHQ/ledger-live/pull/8590) [`be4233c`](https://github.com/LedgerHQ/ledger-live/commit/be4233ce713b90dc3ad335c330ca9d6509bf23e3) Thanks [@LucasWerey](https://github.com/LucasWerey)! - Add feature flag for the rework of the assets list
+
+- [#8555](https://github.com/LedgerHQ/ledger-live/pull/8555) [`fe81150`](https://github.com/LedgerHQ/ledger-live/commit/fe811500ae626cab1995ccf8bd8cb8aa8e74bb40) Thanks [@liviuciulinaru](https://github.com/liviuciulinaru)! - remove legacy swap code on LLD
+
 ## 6.55.0-nightly.0
 
 ### Minor Changes

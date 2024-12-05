@@ -1,5 +1,34 @@
 # ledger-live-desktop
 
+## 2.94.0-nightly.2
+
+### Minor Changes
+
+- [#8602](https://github.com/LedgerHQ/ledger-live/pull/8602) [`5c497ba`](https://github.com/LedgerHQ/ledger-live/commit/5c497ba501348fb5c3fba1336797fdad6cfc8822) Thanks [@Couto](https://github.com/Couto)! - Allow `SWAP_USER_IP` to be passed to the swap app for ip testing
+
+- [#8587](https://github.com/LedgerHQ/ledger-live/pull/8587) [`f1c1757`](https://github.com/LedgerHQ/ledger-live/commit/f1c17575735f0587609fe5366848b47c6dd0d559) Thanks [@adammino-ledger](https://github.com/adammino-ledger)! - Add condition to the flag that enables staking for bitcoin to enable it also for bitcoin_testnet
+
+- [#8555](https://github.com/LedgerHQ/ledger-live/pull/8555) [`fe81150`](https://github.com/LedgerHQ/ledger-live/commit/fe811500ae626cab1995ccf8bd8cb8aa8e74bb40) Thanks [@liviuciulinaru](https://github.com/liviuciulinaru)! - remove legacy swap code on LLD
+
+### Patch Changes
+
+- [#8593](https://github.com/LedgerHQ/ledger-live/pull/8593) [`4f80505`](https://github.com/LedgerHQ/ledger-live/commit/4f80505086ac388055bed83d9149a9141099d1d9) Thanks [@marcotoniut-ledger](https://github.com/marcotoniut-ledger)! - fix missing names regression in staking modal
+
+- Updated dependencies [[`be4233c`](https://github.com/LedgerHQ/ledger-live/commit/be4233ce713b90dc3ad335c330ca9d6509bf23e3), [`fe81150`](https://github.com/LedgerHQ/ledger-live/commit/fe811500ae626cab1995ccf8bd8cb8aa8e74bb40)]:
+  - @ledgerhq/types-live@6.55.0-nightly.1
+  - @ledgerhq/live-common@34.16.0-nightly.2
+  - @ledgerhq/coin-framework@0.20.1-nightly.1
+  - @ledgerhq/coin-bitcoin@0.8.10-nightly.1
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.1
+  - @ledgerhq/coin-evm@2.6.1-nightly.1
+  - @ledgerhq/coin-filecoin@1.3.5-nightly.1
+  - @ledgerhq/domain-service@1.2.14-nightly.1
+  - @ledgerhq/live-countervalues@0.2.15-nightly.1
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.1
+  - @ledgerhq/live-nft@0.5.0-nightly.1
+  - @ledgerhq/live-nft-react@0.5.0-nightly.1
+  - @ledgerhq/live-wallet@0.7.7-nightly.1
+
 ## 2.94.0-nightly.1
 
 ### Minor Changes

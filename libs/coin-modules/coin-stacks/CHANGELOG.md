@@ -1,5 +1,13 @@
 # @ledgerhq/coin-stacks
 
+## 0.2.1-nightly.1
+
+### Patch Changes
+
+- Updated dependencies [[`be4233c`](https://github.com/LedgerHQ/ledger-live/commit/be4233ce713b90dc3ad335c330ca9d6509bf23e3), [`fe81150`](https://github.com/LedgerHQ/ledger-live/commit/fe811500ae626cab1995ccf8bd8cb8aa8e74bb40)]:
+  - @ledgerhq/types-live@6.55.0-nightly.1
+  - @ledgerhq/coin-framework@0.20.1-nightly.1
+
 ## 0.2.1-nightly.0
 
 ### Patch Changes

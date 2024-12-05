@@ -1,5 +1,43 @@
 ## 34.5.0-next.4
 
+## 34.16.0-nightly.2
+
+### Minor Changes
+
+- [#8590](https://github.com/LedgerHQ/ledger-live/pull/8590) [`be4233c`](https://github.com/LedgerHQ/ledger-live/commit/be4233ce713b90dc3ad335c330ca9d6509bf23e3) Thanks [@LucasWerey](https://github.com/LucasWerey)! - Add feature flag for the rework of the assets list
+
+- [#8555](https://github.com/LedgerHQ/ledger-live/pull/8555) [`fe81150`](https://github.com/LedgerHQ/ledger-live/commit/fe811500ae626cab1995ccf8bd8cb8aa8e74bb40) Thanks [@liviuciulinaru](https://github.com/liviuciulinaru)! - remove legacy swap code on LLD
+
+### Patch Changes
+
+- Updated dependencies []:
+  - @ledgerhq/coin-framework@0.20.1-nightly.1
+  - @ledgerhq/coin-algorand@0.5.15-nightly.1
+  - @ledgerhq/coin-bitcoin@0.8.10-nightly.1
+  - @ledgerhq/coin-cardano@0.2.10-nightly.1
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.1
+  - @ledgerhq/coin-elrond@0.1.10-nightly.1
+  - @ledgerhq/coin-evm@2.6.1-nightly.1
+  - @ledgerhq/coin-filecoin@1.3.5-nightly.1
+  - @ledgerhq/coin-hedera@1.1.3-nightly.1
+  - @ledgerhq/coin-icon@0.4.12-nightly.1
+  - @ledgerhq/coin-near@0.5.15-nightly.1
+  - @ledgerhq/coin-polkadot@1.4.1-nightly.1
+  - @ledgerhq/coin-solana@0.9.0-nightly.1
+  - @ledgerhq/coin-stacks@0.2.1-nightly.1
+  - @ledgerhq/coin-stellar@0.4.1-nightly.1
+  - @ledgerhq/coin-tezos@0.7.1-nightly.1
+  - @ledgerhq/coin-ton@0.3.23-nightly.1
+  - @ledgerhq/coin-tron@0.0.15-nightly.1
+  - @ledgerhq/coin-vechain@2.2.1-nightly.1
+  - @ledgerhq/coin-xrp@0.7.1-nightly.1
+  - @ledgerhq/device-core@0.4.9-nightly.1
+  - @ledgerhq/hw-app-eth@6.42.1-nightly.1
+  - @ledgerhq/live-countervalues@0.2.15-nightly.1
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.1
+  - @ledgerhq/live-nft@0.5.0-nightly.1
+  - @ledgerhq/live-wallet@0.7.7-nightly.1
+
 ## 34.16.0-nightly.1
 
 ### Minor Changes
