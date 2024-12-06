@@ -1,5 +1,31 @@
 # live-mobile
 
+## 3.59.0-nightly.3
+
+### Minor Changes
+
+- [#8607](https://github.com/LedgerHQ/ledger-live/pull/8607) [`c9e2ceb`](https://github.com/LedgerHQ/ledger-live/commit/c9e2cebe5025c6c2d2748c26ac51653c71139892) Thanks [@LucasWerey](https://github.com/LucasWerey)! - Fix margin issue
+
+- [#8595](https://github.com/LedgerHQ/ledger-live/pull/8595) [`1447c15`](https://github.com/LedgerHQ/ledger-live/commit/1447c15a698a40aeb4b1b8ac5c587b9036afe647) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Revery useNFTCOllections
+
+### Patch Changes
+
+- Updated dependencies [[`1447c15`](https://github.com/LedgerHQ/ledger-live/commit/1447c15a698a40aeb4b1b8ac5c587b9036afe647)]:
+  - @ledgerhq/types-live@6.55.0-nightly.2
+  - @ledgerhq/live-common@34.16.0-nightly.3
+  - @ledgerhq/live-nft-react@0.5.0-nightly.2
+  - @ledgerhq/coin-framework@0.20.1-nightly.2
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.2
+  - @ledgerhq/coin-elrond@0.1.10-nightly.2
+  - @ledgerhq/coin-evm@2.6.1-nightly.2
+  - @ledgerhq/coin-filecoin@1.3.5-nightly.2
+  - @ledgerhq/coin-stacks@0.2.1-nightly.2
+  - @ledgerhq/domain-service@1.2.14-nightly.2
+  - @ledgerhq/live-countervalues@0.2.15-nightly.2
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.2
+  - @ledgerhq/live-nft@0.5.0-nightly.2
+  - @ledgerhq/live-wallet@0.7.7-nightly.2
+
 ## 3.59.0-nightly.2
 
 ### Patch Changes

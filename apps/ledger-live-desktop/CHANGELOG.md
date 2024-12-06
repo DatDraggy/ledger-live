@@ -1,5 +1,30 @@
 # ledger-live-desktop
 
+## 2.94.0-nightly.3
+
+### Minor Changes
+
+- [#8591](https://github.com/LedgerHQ/ledger-live/pull/8591) [`5afab00`](https://github.com/LedgerHQ/ledger-live/commit/5afab0015e0fdf861b1bdf333cf144114ca13c13) Thanks [@themooneer](https://github.com/themooneer)! - Handler max value error management on casper coin in Memo Tag Flow (legacy & new). In other words, when the max length is bypassed, it will throws a Sender exception related to maxTransferId.
+
+- [#8595](https://github.com/LedgerHQ/ledger-live/pull/8595) [`1447c15`](https://github.com/LedgerHQ/ledger-live/commit/1447c15a698a40aeb4b1b8ac5c587b9036afe647) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Revery useNFTCOllections
+
+### Patch Changes
+
+- Updated dependencies [[`1447c15`](https://github.com/LedgerHQ/ledger-live/commit/1447c15a698a40aeb4b1b8ac5c587b9036afe647)]:
+  - @ledgerhq/types-live@6.55.0-nightly.2
+  - @ledgerhq/live-common@34.16.0-nightly.3
+  - @ledgerhq/live-nft-react@0.5.0-nightly.2
+  - @ledgerhq/coin-framework@0.20.1-nightly.2
+  - @ledgerhq/coin-bitcoin@0.8.10-nightly.2
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.2
+  - @ledgerhq/coin-evm@2.6.1-nightly.2
+  - @ledgerhq/coin-filecoin@1.3.5-nightly.2
+  - @ledgerhq/domain-service@1.2.14-nightly.2
+  - @ledgerhq/live-countervalues@0.2.15-nightly.2
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.2
+  - @ledgerhq/live-nft@0.5.0-nightly.2
+  - @ledgerhq/live-wallet@0.7.7-nightly.2
+
 ## 2.94.0-nightly.2
 
 ### Minor Changes

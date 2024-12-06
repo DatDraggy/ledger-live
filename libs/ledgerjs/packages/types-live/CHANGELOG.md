@@ -1,5 +1,11 @@
 # @ledgerhq/types-live
 
+## 6.55.0-nightly.2
+
+### Minor Changes
+
+- [#8595](https://github.com/LedgerHQ/ledger-live/pull/8595) [`1447c15`](https://github.com/LedgerHQ/ledger-live/commit/1447c15a698a40aeb4b1b8ac5c587b9036afe647) Thanks [@mcayuelas-ledger](https://github.com/mcayuelas-ledger)! - Revery useNFTCOllections
+
 ## 6.55.0-nightly.1
 
 ### Minor Changes
