@@ -1,5 +1,18 @@
 # ledger-live-desktop
 
+## 2.94.0-nightly.4
+
+### Minor Changes
+
+- [#8433](https://github.com/LedgerHQ/ledger-live/pull/8433) [`b4ae38f`](https://github.com/LedgerHQ/ledger-live/commit/b4ae38f26ccc91df25bbdac59f015e9d80fe0f36) Thanks [@andreicovaciu](https://github.com/andreicovaciu)! - feat: display incompatibility for LNS swap
+
+- [#8612](https://github.com/LedgerHQ/ledger-live/pull/8612) [`f11c3a9`](https://github.com/LedgerHQ/ledger-live/commit/f11c3a9ab097729e11551a5d1826db5caff02533) Thanks [@KVNLS](https://github.com/KVNLS)! - LLD: LIVE-15143 use a debounce on the memotag field
+
+### Patch Changes
+
+- Updated dependencies [[`dfe2636`](https://github.com/LedgerHQ/ledger-live/commit/dfe2636fd414e0d90a89962d6477b17c3838adc8)]:
+  - @ledgerhq/live-common@34.16.0-nightly.4
+
 ## 2.94.0-nightly.3
 
 ### Minor Changes

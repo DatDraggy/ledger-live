@@ -1,5 +1,23 @@
 # live-mobile
 
+## 3.59.0-nightly.4
+
+### Minor Changes
+
+- [#8632](https://github.com/LedgerHQ/ledger-live/pull/8632) [`c7335b2`](https://github.com/LedgerHQ/ledger-live/commit/c7335b2947fbb189dd19379965955dfb4e78cb30) Thanks [@thesan](https://github.com/thesan)! - Debounce memo tag changes
+
+- [#8608](https://github.com/LedgerHQ/ledger-live/pull/8608) [`1daabaf`](https://github.com/LedgerHQ/ledger-live/commit/1daabafbd9ce81fef6961267725b63bf65fd55cb) Thanks [@thesan](https://github.com/thesan)! - Truncate Cardano memos in the input to prevent the transaction validation errors
+
+- [#8604](https://github.com/LedgerHQ/ledger-live/pull/8604) [`dfe2636`](https://github.com/LedgerHQ/ledger-live/commit/dfe2636fd414e0d90a89962d6477b17c3838adc8) Thanks [@thesan](https://github.com/thesan)! - Truncate Stacks memos in the input to prevent the transaction validation from failing
+
+- [#8622](https://github.com/LedgerHQ/ledger-live/pull/8622) [`64aae3b`](https://github.com/LedgerHQ/ledger-live/commit/64aae3bbc3ff7a20eb89f320d0778df98b58d002) Thanks [@themooneer](https://github.com/themooneer)! - avoid overlap between generic screens and scroll indicator
+
+### Patch Changes
+
+- Updated dependencies [[`dfe2636`](https://github.com/LedgerHQ/ledger-live/commit/dfe2636fd414e0d90a89962d6477b17c3838adc8)]:
+  - @ledgerhq/coin-stacks@0.3.0-nightly.3
+  - @ledgerhq/live-common@34.16.0-nightly.4
+
 ## 3.59.0-nightly.3
 
 ### Minor Changes

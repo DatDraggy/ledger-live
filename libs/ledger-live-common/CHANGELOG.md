@@ -1,5 +1,16 @@
 ## 34.5.0-next.4
 
+## 34.16.0-nightly.4
+
+### Minor Changes
+
+- [#8604](https://github.com/LedgerHQ/ledger-live/pull/8604) [`dfe2636`](https://github.com/LedgerHQ/ledger-live/commit/dfe2636fd414e0d90a89962d6477b17c3838adc8) Thanks [@thesan](https://github.com/thesan)! - Truncate Stacks memos in the input to prevent the transaction validation from failing
+
+### Patch Changes
+
+- Updated dependencies [[`dfe2636`](https://github.com/LedgerHQ/ledger-live/commit/dfe2636fd414e0d90a89962d6477b17c3838adc8)]:
+  - @ledgerhq/coin-stacks@0.3.0-nightly.3
+
 ## 34.16.0-nightly.3
 
 ### Minor Changes
