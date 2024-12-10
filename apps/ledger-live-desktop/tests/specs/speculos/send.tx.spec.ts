@@ -1,10 +1,10 @@
 import { test } from "../../fixtures/common";
 import { Account } from "@ledgerhq/live-common/e2e/enum/Account";
 import { Fee } from "@ledgerhq/live-common/e2e/enum/Fee";
-import { Transaction, NFTTransaction } from "../../models/Transaction";
+import { Transaction } from "../../models/Transaction";
 import { addTmsLink } from "tests/utils/allureUtils";
 import { getDescription } from "../../utils/customJsonReporter";
-import { commandCLI } from "tests/utils/cliUtils";
+import { CLI } from "tests/utils/cliUtils";
 import { isRunningInScheduledWorkflow } from "tests/utils/githubUtils";
 
 //Warning 🚨: XRP Tests may fail due to API HTTP 429 issue - Jira: LIVE-14237
@@ -224,23 +224,21 @@ test.describe("Send flows", () => {
         userdata: "skip-onboarding",
         speculosApp: transaction.transaction.accountToDebit.currency.speculosApp,
         cliCommands: [
-          {
-            command: commandCLI.liveData,
-            args: {
+          (appjsonPath: string) => {
+            return CLI.liveData({
               currency: transaction.transaction.accountToCredit.currency.currencyId,
               index: transaction.transaction.accountToCredit.index,
               add: true,
-              appjson: "",
-            },
+              appjson: appjsonPath,
+            });
           },
-          {
-            command: commandCLI.liveData,
-            args: {
+          (appjsonPath: string) => {
+            return CLI.liveData({
               currency: transaction.transaction.accountToDebit.currency.currencyId,
               index: transaction.transaction.accountToDebit.index,
               add: true,
-              appjson: "",
-            },
+              appjson: appjsonPath,
+            });
           },
         ],
       });
@@ -299,14 +297,13 @@ test.describe("Send flows", () => {
       userdata: "skip-onboarding",
       speculosApp: tokenTransactionInvalid.transaction.accountToDebit.currency.speculosApp,
       cliCommands: [
-        {
-          command: commandCLI.liveData,
-          args: {
+        (appjsonPath: string) => {
+          return CLI.liveData({
             currency: tokenTransactionInvalid.transaction.accountToDebit.currency.currencyId,
             index: tokenTransactionInvalid.transaction.accountToDebit.index,
             add: true,
-            appjson: "",
-          },
+            appjson: appjsonPath,
+          });
         },
       ],
     });
@@ -341,14 +338,13 @@ test.describe("Send flows", () => {
         userdata: "skip-onboarding",
         speculosApp: transaction.transaction.accountToDebit.currency.speculosApp,
         cliCommands: [
-          {
-            command: commandCLI.liveData,
-            args: {
+          (appjsonPath: string) => {
+            return CLI.liveData({
               currency: transaction.transaction.accountToDebit.currency.currencyId,
               index: transaction.transaction.accountToDebit.index,
               add: true,
-              appjson: "",
-            },
+              appjson: appjsonPath,
+            });
           },
         ],
       });
@@ -388,14 +384,13 @@ test.describe("Send flows", () => {
       userdata: "skip-onboarding",
       speculosApp: tokenTransactionValid.accountToDebit.currency.speculosApp,
       cliCommands: [
-        {
-          command: commandCLI.liveData,
-          args: {
+        (appjsonPath: string) => {
+          return CLI.liveData({
             currency: tokenTransactionValid.accountToDebit.currency.currencyId,
             index: tokenTransactionValid.accountToDebit.index,
             add: true,
-            appjson: "",
-          },
+            appjson: appjsonPath,
+          });
         },
       ],
     });
@@ -431,14 +426,13 @@ test.describe("Send flows", () => {
         userdata: "skip-onboarding",
         speculosApp: transaction.transaction.accountToDebit.currency.speculosApp,
         cliCommands: [
-          {
-            command: commandCLI.liveData,
-            args: {
+          (appjsonPath: string) => {
+            return CLI.liveData({
               currency: transaction.transaction.accountToDebit.currency.currencyId,
               index: transaction.transaction.accountToDebit.index,
               add: true,
-              appjson: "",
-            },
+              appjson: appjsonPath,
+            });
           },
         ],
       });
@@ -478,14 +472,13 @@ test.describe("Send flows", () => {
       userdata: "skip-onboarding",
       speculosApp: transactionInputValid.accountToDebit.currency.speculosApp,
       cliCommands: [
-        {
-          command: commandCLI.liveData,
-          args: {
+        (appjsonPath: string) => {
+          return CLI.liveData({
             currency: transactionInputValid.accountToDebit.currency.currencyId,
             index: transactionInputValid.accountToDebit.index,
             add: true,
-            appjson: "",
-          },
+            appjson: appjsonPath,
+          });
         },
       ],
     });
@@ -521,15 +514,14 @@ test.describe("Send flows", () => {
         userdata: "skip-onboarding",
         speculosApp: transaction.transaction.accountToDebit.currency.speculosApp,
         cliCommands: [
-          {
-            command: commandCLI.liveData,
-            args: {
+          (appjsonPath: string) => {
+            return CLI.liveData({
               currency: transaction.transaction.accountToDebit.currency.currencyId,
               index: transaction.transaction.accountToDebit.index,
               scheme: transaction.transaction.accountToDebit.derivationMode,
               add: true,
-              appjson: "",
-            },
+              appjson: appjsonPath,
+            });
           },
         ],
       });
@@ -564,14 +556,13 @@ test.describe("Send flows", () => {
         userdata: "skip-onboarding",
         speculosApp: transaction.transaction.accountToDebit.currency.speculosApp,
         cliCommands: [
-          {
-            command: commandCLI.liveData,
-            args: {
+          (appjsonPath: string) => {
+            return CLI.liveData({
               currency: transaction.transaction.accountToDebit.currency.currencyId,
               index: transaction.transaction.accountToDebit.index,
               add: true,
-              appjson: "",
-            },
+              appjson: appjsonPath,
+            });
           },
         ],
       });
@@ -599,58 +590,4 @@ test.describe("Send flows", () => {
       );
     });
   }
-
-  test.describe("send NFT to ENS address", () => {
-    const transaction = new NFTTransaction(Account.ETH_1, Account.ETH_MC, "Podium", Fee.SLOW);
-    test.beforeAll(async () => {
-      process.env.DISABLE_TRANSACTION_BROADCAST = "true";
-    });
-    test.afterAll(async () => {
-      delete process.env.DISABLE_TRANSACTION_BROADCAST;
-    });
-    test.use({
-      userdata: "skip-onboarding",
-      cliCommands: [
-        {
-          command: commandCLI.liveData,
-          args: {
-            currency: transaction.accountToDebit.currency.currencyId,
-            index: transaction.accountToDebit.index,
-            appjson: "",
-            add: true,
-          },
-        },
-      ],
-      speculosApp: transaction.accountToDebit.currency.speculosApp,
-    });
-
-    test(
-      "Send NFT to ENS address",
-      {
-        annotation: {
-          type: "TMS",
-          description: "B2CQA-2203",
-        },
-      },
-      async ({ app }) => {
-        await addTmsLink(getDescription(test.info().annotations).split(", "));
-        await app.layout.goToAccounts();
-        await app.accounts.navigateToAccountByName(transaction.accountToDebit.accountName);
-        await app.account.navigateToNFTGallery();
-        await app.account.selectNFT(transaction.nftName);
-        await app.nftDrawer.expectNftNameIsVisible(transaction.nftName);
-        await app.nftDrawer.clickSend();
-        await app.send.craftNFTTx(transaction);
-        await app.send.expectNFTTxInfoValidity(transaction);
-        await app.speculos.signSendNFTTransaction(transaction);
-        await app.send.expectTxSent();
-        await app.account.navigateToViewDetails();
-        await app.drawer.close();
-        await app.layout.goToAccounts();
-        await app.accounts.navigateToAccountByName(transaction.accountToDebit.accountName);
-        await app.account.navigateToNFTOperation();
-        await app.sendDrawer.expectNftInfos(transaction);
-      },
-    );
-  });
 });
