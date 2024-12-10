@@ -1,5 +1,29 @@
 # live-mobile
 
+## 3.59.0-nightly.5
+
+### Minor Changes
+
+- [#8600](https://github.com/LedgerHQ/ledger-live/pull/8600) [`8b841a2`](https://github.com/LedgerHQ/ledger-live/commit/8b841a252e19f0835c31f681aefff81ae0bd769c) Thanks [@adammino-ledger](https://github.com/adammino-ledger)! - Change entrypoints for DOT so they open the Stakekit live app directly without modal
+
+- [#8638](https://github.com/LedgerHQ/ledger-live/pull/8638) [`02418a1`](https://github.com/LedgerHQ/ledger-live/commit/02418a11e1be058ed0c9aa453f9804fed065ebb5) Thanks [@thesan](https://github.com/thesan)! - Fix the memo/tag drawer copy
+
+### Patch Changes
+
+- Updated dependencies [[`6cd5ecd`](https://github.com/LedgerHQ/ledger-live/commit/6cd5ecdedaed090d47a4df18db3c36f990de60e5), [`072da1f`](https://github.com/LedgerHQ/ledger-live/commit/072da1f72d12058f8f662a7365ba9a072addab30)]:
+  - @ledgerhq/coin-framework@0.21.0-nightly.3
+  - @ledgerhq/live-common@34.16.0-nightly.5
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.3
+  - @ledgerhq/coin-elrond@0.1.10-nightly.3
+  - @ledgerhq/coin-evm@2.6.1-nightly.3
+  - @ledgerhq/coin-filecoin@1.3.5-nightly.3
+  - @ledgerhq/coin-stacks@0.3.0-nightly.4
+  - @ledgerhq/live-countervalues@0.2.15-nightly.3
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.3
+  - @ledgerhq/live-nft@0.5.0-nightly.3
+  - @ledgerhq/live-nft-react@0.5.0-nightly.3
+  - @ledgerhq/live-wallet@0.7.7-nightly.3
+
 ## 3.59.0-nightly.4
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @ledgerhq/coin-framework
 
+## 0.21.0-nightly.3
+
+### Minor Changes
+
+- [#8507](https://github.com/LedgerHQ/ledger-live/pull/8507) [`6cd5ecd`](https://github.com/LedgerHQ/ledger-live/commit/6cd5ecdedaed090d47a4df18db3c36f990de60e5) Thanks [@qperrot](https://github.com/qperrot)! - xrp fix show transaction details on the right panel
+
 ## 0.20.1-nightly.2
 
 ### Patch Changes

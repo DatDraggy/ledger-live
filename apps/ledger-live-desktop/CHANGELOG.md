@@ -1,5 +1,30 @@
 # ledger-live-desktop
 
+## 2.94.0-nightly.5
+
+### Minor Changes
+
+- [#8640](https://github.com/LedgerHQ/ledger-live/pull/8640) [`632e2c4`](https://github.com/LedgerHQ/ledger-live/commit/632e2c43e6c2655704d5862d887737b45332b12e) Thanks [@andreicovaciu](https://github.com/andreicovaciu)! - Fix LNS Swap for SOL
+
+- [#8600](https://github.com/LedgerHQ/ledger-live/pull/8600) [`8b841a2`](https://github.com/LedgerHQ/ledger-live/commit/8b841a252e19f0835c31f681aefff81ae0bd769c) Thanks [@adammino-ledger](https://github.com/adammino-ledger)! - Change entrypoints for DOT so they open the Stakekit live app directly without modal
+
+- [#8577](https://github.com/LedgerHQ/ledger-live/pull/8577) [`072da1f`](https://github.com/LedgerHQ/ledger-live/commit/072da1f72d12058f8f662a7365ba9a072addab30) Thanks [@VicAlbr](https://github.com/VicAlbr)! - Adding New E2E tests
+
+### Patch Changes
+
+- Updated dependencies [[`6cd5ecd`](https://github.com/LedgerHQ/ledger-live/commit/6cd5ecdedaed090d47a4df18db3c36f990de60e5), [`072da1f`](https://github.com/LedgerHQ/ledger-live/commit/072da1f72d12058f8f662a7365ba9a072addab30)]:
+  - @ledgerhq/coin-framework@0.21.0-nightly.3
+  - @ledgerhq/live-common@34.16.0-nightly.5
+  - @ledgerhq/coin-bitcoin@0.8.10-nightly.3
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.3
+  - @ledgerhq/coin-evm@2.6.1-nightly.3
+  - @ledgerhq/coin-filecoin@1.3.5-nightly.3
+  - @ledgerhq/live-countervalues@0.2.15-nightly.3
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.3
+  - @ledgerhq/live-nft@0.5.0-nightly.3
+  - @ledgerhq/live-nft-react@0.5.0-nightly.3
+  - @ledgerhq/live-wallet@0.7.7-nightly.3
+
 ## 2.94.0-nightly.4
 
 ### Minor Changes
