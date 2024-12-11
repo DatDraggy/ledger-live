@@ -1,5 +1,11 @@
 # @ledgerhq/coin-cosmos
 
+## 0.2.3-nightly.4
+
+### Patch Changes
+
+- [#8592](https://github.com/LedgerHQ/ledger-live/pull/8592) [`9f7da84`](https://github.com/LedgerHQ/ledger-live/commit/9f7da846c730fa1081a8c201ff9094ae31c8f3bb) Thanks [@beths-ledger](https://github.com/beths-ledger)! - Fix broken links to staking docs and any links with docs=true query params that were broken in the zen desk migration.
+
 ## 0.2.3-nightly.3
 
 ### Patch Changes

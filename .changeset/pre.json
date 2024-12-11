@@ -168,6 +168,7 @@
     "@ledgerhq/hw-bolos": "6.31.4"
   },
   "changesets": [
+    "angry-rats-kick",
     "beige-moose-worry",
     "beige-rings-move",
     "big-apricots-live",
@@ -190,6 +191,7 @@
     "good-mails-cover",
     "good-terms-hunt",
     "great-baboons-enjoy",
+    "grumpy-pets-allow",
     "happy-insects-sing",
     "happy-tomatoes-explain",
     "heavy-starfishes-fix",
@@ -215,13 +217,13 @@
     "rare-schools-happen",
     "rotten-horses-shop",
     "rude-bats-fold",
-    "seven-ravens-rest",
     "shaggy-days-flash",
     "shy-insects-flash",
     "shy-penguins-itch",
     "silly-cougars-rescue",
     "silly-seals-argue",
     "sour-kings-sneeze",
+    "spicy-rabbits-divide",
     "spicy-schools-look",
     "strong-bobcats-marry",
     "swift-islands-begin",
@@ -231,6 +233,7 @@
     "three-snails-reply",
     "tricky-dryers-check",
     "wet-rocks-cough",
+    "witty-swans-share",
     "young-eels-hunt"
   ]
 }

@@ -1,5 +1,24 @@
 # live-mobile
 
+## 3.59.0-nightly.6
+
+### Minor Changes
+
+- [#8588](https://github.com/LedgerHQ/ledger-live/pull/8588) [`3e63578`](https://github.com/LedgerHQ/ledger-live/commit/3e63578aae907f796a3abd38c336662b55ece078) Thanks [@LucasWerey](https://github.com/LucasWerey)! - Rework of the accounts and assets list
+
+- [#8652](https://github.com/LedgerHQ/ledger-live/pull/8652) [`c8c382f`](https://github.com/LedgerHQ/ledger-live/commit/c8c382f5f8c6f794e3717c6a604fd52368ef542e) Thanks [@thesan](https://github.com/thesan)! - Prevent debounce from causing the memo tag not being saved
+
+### Patch Changes
+
+- [#8592](https://github.com/LedgerHQ/ledger-live/pull/8592) [`9f7da84`](https://github.com/LedgerHQ/ledger-live/commit/9f7da846c730fa1081a8c201ff9094ae31c8f3bb) Thanks [@beths-ledger](https://github.com/beths-ledger)! - Fix broken links to staking docs and any links with docs=true query params that were broken in the zen desk migration.
+
+- [#8561](https://github.com/LedgerHQ/ledger-live/pull/8561) [`92c5131`](https://github.com/LedgerHQ/ledger-live/commit/92c51312e5cd4a39f94b7165db88e0dfba90f8d5) Thanks [@ofreyssinet-ledger](https://github.com/ofreyssinet-ledger)! - Replace old device lotties & assets by new ones.
+
+- Updated dependencies [[`9f7da84`](https://github.com/LedgerHQ/ledger-live/commit/9f7da846c730fa1081a8c201ff9094ae31c8f3bb)]:
+  - @ledgerhq/coin-cosmos@0.2.3-nightly.4
+  - @ledgerhq/live-common@34.16.0-nightly.6
+  - @ledgerhq/ethereum-provider@0.3.1-nightly.0
+
 ## 3.59.0-nightly.5
 
 ### Minor Changes
