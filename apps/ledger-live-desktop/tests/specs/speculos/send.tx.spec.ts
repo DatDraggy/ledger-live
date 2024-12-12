@@ -187,7 +187,7 @@ const transactionE2E = [
     xrayTicket: "B2CQA-2814",
   },
   {
-    transaction: new Transaction(Account.ADA_1, Account.ADA_1, "1", undefined, "noTag"),
+    transaction: new Transaction(Account.ADA_1, Account.ADA_2, "1", undefined, "noTag"),
     xrayTicket: "B2CQA-2815",
   },
   {
