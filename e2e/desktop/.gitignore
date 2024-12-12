@@ -1,0 +1,48 @@
+# Logs
+logs
+*.log
+
+.DS_Store
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# Dependency directories
+node_modules/
+
+# dotenv environment variables file
+.env
+.env.test
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+
+# Next.js build output
+.next
+
+# Nuxt.js build / generate output
+.nuxt
+dist
+
+# Gatsby files
+.cache/
+# Comment in the public line in if your project uses Gatsby and *not* Next.js
+# https://nextjs.org/blog/next-9-1#public-directory-support
+# public
+
+# Webpack cache
+.webpack
+
+# Don't Ignore
+!jsconfig.json
+!tools/dist
+
+src/coverage/
+src/artifacts/*
+!src/artifacts/.gitkeep
+
+# IDE
+.vscode/*
+
+# tests execution results
+allure-results

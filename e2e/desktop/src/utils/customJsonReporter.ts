@@ -37,7 +37,7 @@ class JsonReporter implements Reporter {
   }
 
   async onExit(): Promise<void> {
-    const outputPath = path.resolve("./tests/artifacts/xray/xray-report.json");
+    const outputPath = path.resolve("./src/artifacts/xray/xray-report.json");
     const outputDir = path.dirname(outputPath);
     fs.mkdirSync(outputDir, { recursive: true });
     const json = JSON.stringify(this.results, null, 2);

@@ -30,6 +30,7 @@
     "build:config": "pnpm turbo build --filter=@ledgerhq/live-config",
     "build:llc": "pnpm turbo build --filter=./libs/ledger-live-common",
     "build:lld": "pnpm turbo build --filter=ledger-live-desktop",
+    "build:lld:testing": "pnpm turbo build:testing --filter=ledger-live-desktop",
     "build:lld:deps": "pnpm turbo build --filter=\"ledger-live-desktop^...\"",
     "build:llm:android": "pnpm turbo android:apk:local --filter=live-mobile",
     "build:llm:ios": "pnpm turbo ios:local:ipa --filter=live-mobile",

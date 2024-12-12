@@ -40,7 +40,7 @@ export async function captureArtifacts(page: Page, testInfo: TestInfo) {
     }
   }
 
-  const filePath = `tests/artifacts/${testInfo.title.replace(/[^a-zA-Z0-9]/g, " ")}.json`;
+  const filePath = `src/artifacts/${testInfo.title.replace(/[^a-zA-Z0-9]/g, " ")}.json`;
 
   await page.evaluate(filePath => {
     window.saveLogs(filePath);
