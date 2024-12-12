@@ -1,5 +1,16 @@
 # ledger-live-desktop
 
+## 2.94.0-nightly.7
+
+### Minor Changes
+
+- [#8666](https://github.com/LedgerHQ/ledger-live/pull/8666) [`cf2a2f4`](https://github.com/LedgerHQ/ledger-live/commit/cf2a2f41318cfaa0efaee9bfde1a55a379661947) Thanks [@KVNLS](https://github.com/KVNLS)! - LLD - Migrate to https to download signatures
+
+### Patch Changes
+
+- Updated dependencies [[`013e3ac`](https://github.com/LedgerHQ/ledger-live/commit/013e3ac458936ce9de93cd277766f68e1de8d099)]:
+  - @ledgerhq/live-common@34.16.0-nightly.7
+
 ## 2.94.0-nightly.6
 
 ### Patch Changes

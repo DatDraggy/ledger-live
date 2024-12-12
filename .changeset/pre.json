@@ -165,7 +165,8 @@
     "@ledgerhq/live-dmk": "0.1.0",
     "@ledgerhq/ledger-cal-service": "0.0.1",
     "@ledgerhq/ledger-trust-service": "0.0.1",
-    "@ledgerhq/hw-bolos": "6.31.4"
+    "@ledgerhq/hw-bolos": "6.31.4",
+    "@ledgerhq/coin-internet_computer": "1.3.2"
   },
   "changesets": [
     "angry-rats-kick",
@@ -201,6 +202,7 @@
     "honest-trainers-shake",
     "hungry-moles-yawn",
     "large-books-prove",
+    "large-glasses-relate",
     "large-otters-refuse",
     "late-phones-add",
     "light-poets-smile",
@@ -232,6 +234,7 @@
     "three-mails-hug",
     "three-snails-reply",
     "tricky-dryers-check",
+    "twelve-squids-live",
     "wet-rocks-cough",
     "witty-swans-share",
     "young-eels-hunt"
