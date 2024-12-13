@@ -1,5 +1,35 @@
 # live-mobile
 
+## 3.59.0-nightly.8
+
+### Minor Changes
+
+- [#8674](https://github.com/LedgerHQ/ledger-live/pull/8674) [`e93df7a`](https://github.com/LedgerHQ/ledger-live/commit/e93df7aea4506383c8d324c8be874cd4560095fb) Thanks [@cgrellard-ledger](https://github.com/cgrellard-ledger)! - LLM - Add a margin bottom to the bottom of the landing pages when there is no sticky cta
+
+- [#8667](https://github.com/LedgerHQ/ledger-live/pull/8667) [`fa5d5a3`](https://github.com/LedgerHQ/ledger-live/commit/fa5d5a35e0885d9efd9f41aa04f6d56d5b4ad145) Thanks [@thesan](https://github.com/thesan)! - Remove invalid format error for Stellar empty hash and return type memo
+
+- [#8627](https://github.com/LedgerHQ/ledger-live/pull/8627) [`4b8e87d`](https://github.com/LedgerHQ/ledger-live/commit/4b8e87d3f32d282da85e3aff479549e6990c047b) Thanks [@thesan](https://github.com/thesan)! - Focus on the memo tag input when clicking the drawers "Add Tag" button
+
+### Patch Changes
+
+- Updated dependencies [[`9820a8f`](https://github.com/LedgerHQ/ledger-live/commit/9820a8f8ec66cf114b23c3c3b92474d250b8bf01), [`fbff5e4`](https://github.com/LedgerHQ/ledger-live/commit/fbff5e46c871d4f0d9d89a5638309408bb057197)]:
+  - @ledgerhq/types-live@6.55.0-nightly.3
+  - @ledgerhq/coin-filecoin@1.4.0-nightly.4
+  - @ledgerhq/coin-cosmos@0.3.0-nightly.5
+  - @ledgerhq/coin-elrond@0.2.0-nightly.4
+  - @ledgerhq/coin-stacks@0.3.0-nightly.5
+  - @ledgerhq/coin-evm@2.7.0-nightly.4
+  - @ledgerhq/live-common@34.16.0-nightly.8
+  - @ledgerhq/coin-framework@0.21.0-nightly.4
+  - @ledgerhq/live-wallet@0.8.0-nightly.4
+  - @ledgerhq/hw-ledger-key-ring-protocol@0.3.0-nightly.0
+  - @ledgerhq/domain-service@1.2.14-nightly.3
+  - @ledgerhq/live-countervalues@0.2.15-nightly.4
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.4
+  - @ledgerhq/live-nft@0.5.0-nightly.4
+  - @ledgerhq/live-nft-react@0.5.0-nightly.4
+  - @ledgerhq/ledger-key-ring-protocol@0.5.2-nightly.0
+
 ## 3.59.0-nightly.7
 
 ### Patch Changes

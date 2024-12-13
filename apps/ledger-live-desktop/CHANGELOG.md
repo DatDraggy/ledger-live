@@ -1,5 +1,32 @@
 # ledger-live-desktop
 
+## 2.94.0-nightly.8
+
+### Minor Changes
+
+- [#8660](https://github.com/LedgerHQ/ledger-live/pull/8660) [`5731297`](https://github.com/LedgerHQ/ledger-live/commit/573129721def8991ed2b4cef9f1631118532bdf1) Thanks [@Couto](https://github.com/Couto)! - Add horizontal margins in the deviceAction sidebar
+
+- [#8655](https://github.com/LedgerHQ/ledger-live/pull/8655) [`a4224a2`](https://github.com/LedgerHQ/ledger-live/commit/a4224a2934352dae3b3d8efadd320339d6d913d1) Thanks [@Couto](https://github.com/Couto)! - Fix text cut off in the exchange drawer sidebar
+
+### Patch Changes
+
+- Updated dependencies [[`9820a8f`](https://github.com/LedgerHQ/ledger-live/commit/9820a8f8ec66cf114b23c3c3b92474d250b8bf01), [`fbff5e4`](https://github.com/LedgerHQ/ledger-live/commit/fbff5e46c871d4f0d9d89a5638309408bb057197)]:
+  - @ledgerhq/types-live@6.55.0-nightly.3
+  - @ledgerhq/coin-filecoin@1.4.0-nightly.4
+  - @ledgerhq/coin-bitcoin@0.9.0-nightly.4
+  - @ledgerhq/coin-cosmos@0.3.0-nightly.5
+  - @ledgerhq/coin-evm@2.7.0-nightly.4
+  - @ledgerhq/live-common@34.16.0-nightly.8
+  - @ledgerhq/coin-framework@0.21.0-nightly.4
+  - @ledgerhq/live-wallet@0.8.0-nightly.4
+  - @ledgerhq/hw-ledger-key-ring-protocol@0.3.0-nightly.0
+  - @ledgerhq/domain-service@1.2.14-nightly.3
+  - @ledgerhq/live-countervalues@0.2.15-nightly.4
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.4
+  - @ledgerhq/live-nft@0.5.0-nightly.4
+  - @ledgerhq/live-nft-react@0.5.0-nightly.4
+  - @ledgerhq/ledger-key-ring-protocol@0.5.2-nightly.0
+
 ## 2.94.0-nightly.7
 
 ### Minor Changes

@@ -1,5 +1,11 @@
 # @ledgerhq/types-live
 
+## 6.55.0-nightly.3
+
+### Minor Changes
+
+- [#8499](https://github.com/LedgerHQ/ledger-live/pull/8499) [`9820a8f`](https://github.com/LedgerHQ/ledger-live/commit/9820a8f8ec66cf114b23c3c3b92474d250b8bf01) Thanks [@sprohaszka-ledger](https://github.com/sprohaszka-ledger)! - Exchange function is now in coin-modules
+
 ## 6.55.0-nightly.2
 
 ### Minor Changes

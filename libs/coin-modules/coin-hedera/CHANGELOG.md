@@ -1,5 +1,18 @@
 # @ledgerhq/coin-hedera
 
+## 1.2.0-nightly.4
+
+### Minor Changes
+
+- [#8499](https://github.com/LedgerHQ/ledger-live/pull/8499) [`9820a8f`](https://github.com/LedgerHQ/ledger-live/commit/9820a8f8ec66cf114b23c3c3b92474d250b8bf01) Thanks [@sprohaszka-ledger](https://github.com/sprohaszka-ledger)! - Exchange function is now in coin-modules
+
+### Patch Changes
+
+- Updated dependencies [[`9820a8f`](https://github.com/LedgerHQ/ledger-live/commit/9820a8f8ec66cf114b23c3c3b92474d250b8bf01)]:
+  - @ledgerhq/types-live@6.55.0-nightly.3
+  - @ledgerhq/coin-framework@0.21.0-nightly.4
+  - @ledgerhq/live-countervalues@0.2.15-nightly.4
+
 ## 1.1.3-nightly.3
 
 ### Patch Changes

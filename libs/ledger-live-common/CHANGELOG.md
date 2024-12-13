@@ -1,5 +1,42 @@
 ## 34.5.0-next.4
 
+## 34.16.0-nightly.8
+
+### Minor Changes
+
+- [#8499](https://github.com/LedgerHQ/ledger-live/pull/8499) [`9820a8f`](https://github.com/LedgerHQ/ledger-live/commit/9820a8f8ec66cf114b23c3c3b92474d250b8bf01) Thanks [@sprohaszka-ledger](https://github.com/sprohaszka-ledger)! - Exchange function is now in coin-modules
+
+### Patch Changes
+
+- Updated dependencies [[`9820a8f`](https://github.com/LedgerHQ/ledger-live/commit/9820a8f8ec66cf114b23c3c3b92474d250b8bf01)]:
+  - @ledgerhq/coin-algorand@0.6.0-nightly.4
+  - @ledgerhq/coin-filecoin@1.4.0-nightly.4
+  - @ledgerhq/coin-polkadot@1.5.0-nightly.4
+  - @ledgerhq/coin-bitcoin@0.9.0-nightly.4
+  - @ledgerhq/coin-cardano@0.3.0-nightly.4
+  - @ledgerhq/coin-stellar@0.5.0-nightly.4
+  - @ledgerhq/coin-vechain@2.3.0-nightly.4
+  - @ledgerhq/coin-cosmos@0.3.0-nightly.5
+  - @ledgerhq/coin-elrond@0.2.0-nightly.4
+  - @ledgerhq/coin-hedera@1.2.0-nightly.4
+  - @ledgerhq/coin-solana@0.9.0-nightly.4
+  - @ledgerhq/coin-stacks@0.3.0-nightly.5
+  - @ledgerhq/coin-tezos@0.8.0-nightly.4
+  - @ledgerhq/coin-icon@0.5.0-nightly.4
+  - @ledgerhq/coin-near@0.6.0-nightly.4
+  - @ledgerhq/coin-tron@0.1.0-nightly.4
+  - @ledgerhq/coin-evm@2.7.0-nightly.4
+  - @ledgerhq/coin-ton@0.4.0-nightly.4
+  - @ledgerhq/coin-xrp@0.8.0-nightly.4
+  - @ledgerhq/coin-framework@0.21.0-nightly.4
+  - @ledgerhq/live-wallet@0.8.0-nightly.4
+  - @ledgerhq/coin-internet_computer@1.4.0-nightly.1
+  - @ledgerhq/device-core@0.4.9-nightly.3
+  - @ledgerhq/hw-app-eth@6.42.1-nightly.3
+  - @ledgerhq/live-countervalues@0.2.15-nightly.4
+  - @ledgerhq/live-countervalues-react@0.2.15-nightly.4
+  - @ledgerhq/live-nft@0.5.0-nightly.4
+
 ## 34.16.0-nightly.7
 
 ### Minor Changes
