@@ -2,31 +2,31 @@ import React, { useCallback, useMemo } from "react";
 import { Platform } from "react-native";
 import { createStackNavigator } from "@react-navigation/stack";
 import { useTheme } from "styled-components/native";
-import { useRoute } from "@react-navigation/native";
+import { useNavigation } from "@react-navigation/native";
 import { ScreenName } from "~/const";
 import { getStackNavigatorConfig } from "~/navigation/navigatorConfig";
 import { track } from "~/analytics";
-import { NavigationHeaderCloseButtonAdvanced } from "~/components/NavigationHeaderCloseButton";
 import { AssetsNavigatorParamsList } from "./types";
 import AssetsList from "./screens/AssetsList";
+import { NavigationHeaderBackButton } from "~/components/NavigationHeaderBackButton";
 
 export default function Navigator() {
   const { colors } = useTheme();
-  const route = useRoute();
+  const navigation = useNavigation();
 
-  const onClose = useCallback(() => {
+  const goBack = useCallback(() => {
     track("button_clicked", {
-      button: "Close",
-      screen: route.name,
+      button: "Back",
     });
-  }, [route]);
+    navigation.goBack();
+  }, [navigation]);
 
   const stackNavigationConfig = useMemo(
     () => ({
       ...getStackNavigatorConfig(colors, true),
-      headerRight: () => <NavigationHeaderCloseButtonAdvanced onClose={onClose} />,
+      headerLeft: () => <NavigationHeaderBackButton onPress={goBack} />,
     }),
-    [colors, onClose],
+    [colors, goBack],
   );
 
   return (

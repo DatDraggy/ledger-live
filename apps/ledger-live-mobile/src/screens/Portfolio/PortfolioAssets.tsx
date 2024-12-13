@@ -122,7 +122,13 @@ const PortfolioAssets = ({ hideEmptyTokenAccount, openAddModal }: Props) => {
               onToggle={handleToggle}
             />
           </Box>
-          <Flex flexDirection="row" overflow="hidden" onLayout={handleLayout} width="200%">
+          <Flex
+            flexDirection="row"
+            overflow="hidden"
+            onLayout={handleLayout}
+            width="200%"
+            testID="portfolio-assets-layout"
+          >
             <Animated.View style={[{ flex: 1 }, assetsAnimatedStyle]}>
               <AssetsListView
                 sourceScreenName={ScreenName.Portfolio}

@@ -6,7 +6,7 @@ import { MockedAccounts } from "./mockedAccount";
 import { State } from "~/reducers/types";
 import AccountsNavigator from "LLM/features/Accounts/Navigator";
 import { BaseNavigatorStackParamList } from "~/components/RootNavigator/types/BaseNavigator";
-import AssetsList from "LLM/features/Assets/screens/AssetsList";
+import AssetsNavigator from "LLM/features/Assets/Navigator";
 
 const Stack = createStackNavigator<BaseNavigatorStackParamList>();
 
@@ -15,8 +15,8 @@ const TestNavigator = ({ children }: { children: React.ReactNode }) => (
     <Stack.Navigator initialRouteName={ScreenName.MockedWalletScreen}>
       <Stack.Screen name={ScreenName.MockedWalletScreen}>{() => children}</Stack.Screen>
       <Stack.Screen
-        name={ScreenName.AssetsList}
-        component={AssetsList}
+        name={NavigatorName.Assets}
+        component={AssetsNavigator}
         options={{ headerShown: false }}
       />
       <Stack.Screen

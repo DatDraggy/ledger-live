@@ -1,14 +1,19 @@
 import React from "react";
-import { render, screen } from "@tests/test-renderer";
+import { fireEvent, render, screen } from "@tests/test-renderer";
 import { State } from "~/reducers/types";
 import PortfolioAssets from "../PortfolioAssets";
 import TestNavigator, { INITIAL_STATE, SlicedMockedAccounts } from "./shared";
 import { track } from "~/analytics";
 
+const mockLayoutEvent = (width: number) => ({
+  nativeEvent: {
+    layout: {
+      width,
+    },
+  },
+});
+
 describe("portfolioAssets", () => {
-  beforeAll(() => {
-    jest.useFakeTimers();
-  });
   it("should render empty portfolio", async () => {
     render(
       <TestNavigator>
@@ -34,6 +39,8 @@ describe("portfolioAssets", () => {
       { ...INITIAL_STATE },
     );
 
+    fireEvent(screen.getByTestId("portfolio-assets-layout"), "layout", mockLayoutEvent(722));
+
     expect(screen.getByTestId("AssetsList")).toBeVisible();
     expect(screen.getByText(/accounts/i)).toBeVisible();
     expect(screen.getByText(/see all assets/i)).toBeVisible();
@@ -42,13 +49,9 @@ describe("portfolioAssets", () => {
 
     await user.press(screen.getByText(/accounts/i));
 
-    jest.advanceTimersByTime(600);
-
-    //screen.debug();
-
     expect(screen.getByText(/see all accounts/i)).toBeVisible();
     expect(screen.getByText(/add new or existing account/i)).toBeVisible();
-    // await waitFor(() => expect(screen.getByText(/cronos 2/i)).toBeVisible());
+    expect(screen.getByText("Cronos 2")).toBeVisible();
   });
 
   it("should hide see all button and display add account button because there is less than 5 assets", async () => {
@@ -75,8 +78,6 @@ describe("portfolioAssets", () => {
       page: "Wallet",
     });
 
-    jest.advanceTimersByTime(600);
-
     expect(screen.queryByText(/see all accounts/i)).toBeNull();
 
     await user.press(screen.getByText(/assets/i));
@@ -85,8 +86,6 @@ describe("portfolioAssets", () => {
       button: "Assets",
       page: "Wallet",
     });
-
-    jest.advanceTimersByTime(600);
   });
 
   it("should render assets list screen", async () => {
@@ -116,11 +115,10 @@ describe("portfolioAssets", () => {
       </TestNavigator>,
       { ...INITIAL_STATE },
     );
+
     expect(await screen.getByTestId("AssetsList")).toBeVisible();
 
     await user.press(screen.getByText(/accounts/i));
-
-    jest.advanceTimersByTime(600);
 
     expect(screen.getByText(/see all accounts/i)).toBeVisible();
     await user.press(screen.getByText(/see all accounts/i));

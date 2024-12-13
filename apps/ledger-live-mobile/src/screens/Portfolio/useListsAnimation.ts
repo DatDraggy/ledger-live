@@ -47,6 +47,13 @@ const useListsAnimation = (initialTab: TabListType) => {
   );
 
   useEffect(() => {
+    console.log(
+      "sharedValue",
+      assetsTranslateX,
+      accountsTranslateX,
+      assetsOpacity,
+      accountsOpacity,
+    );
     if (selectedTab === TAB_OPTIONS.Assets) {
       // Assets tab is selected so here is the default position
       assetsTranslateX.value = withTiming(0, { duration: 250 });
