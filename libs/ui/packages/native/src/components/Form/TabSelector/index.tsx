@@ -36,10 +36,12 @@ type TabSelectorProps = {
 export default function TabSelector({ labels, onToggle }: TabSelectorProps): JSX.Element {
   const translateX = useSharedValue(0);
   const [containerWidth, setContainerWidth] = useState(0);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   const handlePress = (value: string, index: number) => {
-    onToggle(value);
+    setSelectedIndex(index);
     translateX.value = (containerWidth / labels.length) * index;
+    if (selectedIndex !== index) onToggle(value);
   };
 
   const handleLayout = (event: LayoutChangeEvent) => {
@@ -67,11 +69,11 @@ export default function TabSelector({ labels, onToggle }: TabSelectorProps): JSX
         <AnimatedBackground style={animatedStyle} />
         {labels.map((label, index) => (
           <Pressable
-            hitSlop={16}
+            hitSlop={6}
             key={label}
             onPress={() => handlePress(label, index)}
             style={({ pressed }: { pressed: boolean }) => [
-              { opacity: pressed ? 0.5 : 1.0, flex: 1 },
+              { opacity: pressed && selectedIndex !== index ? 0.5 : 1, flex: 1 },
             ]}
           >
             <Tab>
